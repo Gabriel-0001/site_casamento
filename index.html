@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casamento</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casamento</title>
+    <style>
+    </style>
+</head>
+<body>
+
+    <div class="overlay-container">
+        <div class="overlay-text">D | C</div>
+    </div>
+    <div id="photos">
+        <img src="fotos\ft1_colum1.png" alt="Placeholder Photo 1">
+        <img src="fotos\ft2_colum1.png" alt="Placeholder Photo 2">
+        <img src="fotos\ft3_colum3.png" alt="Placeholder Photo 3">
+        <img src="fotos\ft4_colum1.png" alt="Placeholder Photo 4">
+    </div>
+    
+    <div id="header">
+        <div id="date">
+            <div>09 de março de 2024</div>
+            <div>-</div>
+            <div>15h</div>
+        </div>
+    </div>
+
+    <div id="profiles">
+        <div class="profile">
+            <img src="fotos\ft_carol_colum2.png" alt="Carol's Photo">
+            <div>Carol</div>
+        </div>
+        <div class="profile">
+            <img src="fotos\ft_diego_colum2.png" alt="Diego's Photo">
+            <div>Diego</div>
+        </div>
+    </div>
+
+    <div id="story">
+        <p>Deus tem guiado a história do Diego e da Carol desde o início. 
+            Tudo começou com um culto comum, que deu origem a tudo o que eles desejam celebrar juntos. 
+            A história teve inicio em um simples encontro de olhares, seguido de uma conexão nas redes sociais que resultou em 4 anos de amizade, 
+            embora Diego tenha recusado o convite da Carol para tomar açaí, pois não queria se envolver em um relacionamento naquela época.
+
+            Mais quatro anos se passaram e Deus cuidou individualmente de cada um deles, 
+            preparando-os para estarem juntos no momento certo. No aniversário da Carol em 2020, 
+            Diego expressou o desejo de levar o relacionamento para além da amizade. Um novo convite foi feito para estender as comemorações, 
+            e a reconexão aconteceu - ou talvez nunca tenha deixado de existir?
+            
+            Diego passou pelo altíssimo crivo da Valentina, o que confirmou ainda mais a vontade de Deus no relacionamento. 
+            Agora, anos depois daquela primeira troca de olhares, eles estão radiantes em convidar a todos para celebrar o amor, 
+            a fidelidade de Deus e o início da sua família..</p>
+    </div>
+
+
+    
+    <div id="quote">
+        <div id="quote-container">
+            <div id="quote-background"></div>
+            <div id="quote-overlay"></div>
+            <div id="quote-text">
+                “Deus uniu nossos caminhos<br/>e nós, sob sua benção, <br/>uniremos nossas vidas para sempre”
+            </div>
+        </div>
+    </div>
+
+    <div id="gift-section">
+        <div id="gift-container">
+            <div id="gift-title">Listas de Presentes</div>
+            <div id="gift-description">Você pode nos presentear através dos sites abaixo ou pelo pix, caso prefira.</div>
+            
+            <div id="gift-options">
+                <button class="gift-button" onclick="openLinkInNewTab('https://www.querodecasamento.com.br/lista-de-casamento/Diego-Carol-')">
+                    <img src="fotos\logo-magalu-azul 1.png" alt="Gift Logo">
+                </button>
+                
+                <div id="pix-container">
+                    <div id="pix-title">PIX</div>
+                    <div id="pix-number-container" data-number="(31) 9 8493-5207">(31) 9 8493-5207</div>
+                    <button class="pix-button" onclick="copyPixNumber()">Copiar Pix</button>
+                </div>
+                
+                <button class="gift-card" onclick="openLinkInNewTab('https://listas.pontofrio.com.br/diegoecarol')">
+                    <img src="fotos\logo_Ponto.png" alt="Gift Card">
+                </button>
+            </div>
+            
+            <div id="divider"></div>
+        </div>
+        
+    </div>
+
+    <div id="location-section">
+        <div id="location-container">
+            <div id="location-title">Localização</div>
+            <div id="location-content">
+                <div class="location-section">
+                    <div class="location-title">Cerimônia e Recepção
+                        <br>
+
+                    </div>
+                    <div class="location-address">Rua Niágara 83, Trevo. BH - MG
+                        <br>
+
+                    </div>
+                    <div class="location-time"> 
+                        A cerimônia terá início às <span class="negrito">15h</span>, 
+                        <br>pontualmente. Não se atrasem 
+                        <br>para não perderem cada minuto 
+                        <br>desse momento tão sonhado.
+                        <br>
+                    </div>
+                    <div id="location-instructions">
+                        <button class="location-instructions-text" onclick="openGoogleMaps()">Como chegar</button>
+                    </div>
+                </div>
+                <div class="location-image">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2653.8847083446944!2d-44.01288259651336!3d-19.83319255914986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDQ5JzU5LjQiUyA0NMKwMDAnNDEuMCJX!5e0!3m2!1spt-BR!2sbr!4v1706823770523!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
